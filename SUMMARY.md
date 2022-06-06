@@ -1,3 +1,4 @@
 # Table of contents
 
-* [Bootstrap](README.md)
+* [README](README.md)
+* [Bootstrap](bootstrap.md)

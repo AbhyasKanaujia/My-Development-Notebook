@@ -1,17 +1,6 @@
-# Bootstrap
+# README
 
+### All My Public Notebooks
 
-
-## What is Boostrap?
-
-_Bootstrap_ is the most popular CSS Framework for developing responsive and mobile-first websites.
-
-## Why use Boostrap?
-
-* Faster Development Speed
-* Responsive
-* Code Reusability
-* Consistent Design
-* Customizablity
-* Large Community
+{% embed url="https://gist.github.com/AbhyasKanaujia/b1aa2c5ba91e8a0b7796fecdbf52023a#file-all-my-public-notebooks" %}
 
