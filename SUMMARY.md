@@ -8,5 +8,5 @@
 
 ## 🖐 Handpose Detection
 
-* [Handpose Detection](handpose-detection/handpose-detection.md)
-* [Real Time Handpose Detection](handpose-detection/real-time-handpose-detection.md)
+* [Handpose Detection](handpose-detection/handpose-detection/README.md)
+  * [Real Time Handpose Detection](handpose-detection/handpose-detection/real-time-handpose-detection.md)
