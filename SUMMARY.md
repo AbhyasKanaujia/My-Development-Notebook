@@ -11,3 +11,7 @@
 
 * [Handpose Detection](handpose-detection/handpose-detection/README.md)
   * [Real Time Handpose Detection](handpose-detection/handpose-detection/real-time-handpose-detection.md)
+
+## 🌿 My Projects
+
+* [⏲ Phased Timer](my-projects/phased-timer.md)
