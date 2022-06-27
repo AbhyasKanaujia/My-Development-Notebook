@@ -38,31 +38,70 @@ I've noticed that every time I start a project, I abandon it midway. The main re
 * I'm not satisfied by the look of the app
 * I spend too much time thinking about how it will look and never get to reach the part when I am actually building the functionality.
 
-Then I'm exhausted and bored long before I read this point.&#x20;
+Then I'm exhausted and bored long before I reach this point.&#x20;
 
-So this time I'm going to build this whole thing in bare-bones HTML. I'll build the functionality and let the design be optional this time. I found this piece of CSS called [100 Bytes of CSS to look great everywhere ](https://www.swyx.io/css-100-bytes)from [my friend's digital garden](https://notes.whoibrar.com/2022/04). Now I've applied that, and I'm hoping this will look decent enough.&#x20;
+So this time I'm going to build this whole thing in bare-bones HTML. I'll build the functionality and let the design be optional this time. I found this piece of CSS called, [100 Bytes of CSS to look great everywhere](https://www.swyx.io/css-100-bytes) from [my friend's digital garden](https://notes.whoibrar.com/2022/04). Now I've applied that, and I'm hoping this will look decent enough.&#x20;
+
+I'll also mark the features as advanced so that I don't get distracted by them. I need to get the [MVP](https://en.wikipedia.org/wiki/Minimum\_viable\_product) down first.&#x20;
 
 ## Design
 
-### Basic
+### Screens
 
 #### Main Screen
 
 * The main screen will show the phases that have passed, the current phase and the upcoming phase.&#x20;
 * The current phase will be pronounced and will have its timer running.&#x20;
+* **\[Advanced]** The page will automatically scroll to keep the current time within the frame.&#x20;
 
 #### Edit Screen
 
 * Shows a list of label and duration.&#x20;
 * `Edit` and `delete` button
 * `Add` below and add above button.&#x20;
+* **\[Advanced]** A `move up` and `move down` button for items in the list.&#x20;
 
-### Advanced
+### Components
 
 #### Main Screen
 
-* The page will automatically scroll to keep the current time within the frame.&#x20;
+<img src="../.gitbook/assets/file.drawing.svg" alt="Component Tree for Main Screen" class="gitbook-drawing">
 
-#### Edit Screen
+## Database&#x20;
 
-* A `move up` and `move down` button for items in the list.&#x20;
+I'm going to use the local storage as the database and store it as a JSON.
+
+Here's the structure I'm thinking of:&#x20;
+
+```json
+phases: [
+    {
+        name: "Read Question",
+        time: 300,
+        elapsed: 300,
+        completed: true
+    }, 
+    {
+        name: "Attempt",
+        time: 600,
+        elapsed: 300,
+        completed: false
+    }, 
+    {
+        name: "Dry Run",
+        time: 600,
+        elapsed: 0,
+        completed: false
+    }, 
+    {
+        name: "See Solution",
+        time: 600,
+        elapsed: 0,
+        completed: false
+    }    
+]
+```
+
+For storing the time, I'll use seconds as the unit. I don't think further precision will be need.&#x20;
+
+I don't know how to work with local storage yet, So I'll follow some tutorial.&#x20;

@@ -7,10 +7,14 @@
 * [Quick Share Project](quick-share-project.md)
 * [How to Deploy React App to GitHub Pages](how-to-deploy-react-app-to-github-pages.md)
 
-## 🖐 Handpose Detection
+## ⚛ React.js Notes
 
-* [Handpose Detection](handpose-detection/handpose-detection/README.md)
-  * [Real Time Handpose Detection](handpose-detection/handpose-detection/real-time-handpose-detection.md)
+* [Using LocalStorage](react.js-notes/using-localstorage.md)
+
+## 🖐 Handpose Detection Projects
+
+* [Handpose Detection](handpose-detection-projects/handpose-detection/README.md)
+  * [Real Time Handpose Detection](handpose-detection-projects/handpose-detection/real-time-handpose-detection.md)
 
 ## 🌿 My Projects
 
