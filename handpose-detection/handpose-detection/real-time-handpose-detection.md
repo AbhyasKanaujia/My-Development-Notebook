@@ -1,5 +1,9 @@
 # Real Time Handpose Detection
 
+{% embed url="https://abhyaskanaujia.github.io/Handpose-Detection-App/" %}
+Deployed and live on GitHub Pages
+{% endembed %}
+
 So this is a project where we can detect hand poses and show different emojis based on the pose. I'll be following the [Real Time AI HAND POSE Estimation with JavaScript, Tensorflow.JS and React.JS](https://youtu.be/f7uBsb-0sGQ) tutorial.&#x20;
 
 We're going to do a single hand detection and label and detect 21 key points on one hand.&#x20;
@@ -37,3 +41,6 @@ I never knew I keep smiling when I'm doing things that I love.&#x20;
 
 What's happiness? <img src="../../.gitbook/assets/image.png" alt="" data-size="line">
 
+## Completed
+
+I've completed this project. It was really fun. Though the results are really simple, but I had a lot of fun building it. I'll deploy it to GitHub Pages now. I'll follow this tutorial. [How to Deploy React App to GitHub Pages](../../how-to-deploy-react-app-to-github-pages.md).

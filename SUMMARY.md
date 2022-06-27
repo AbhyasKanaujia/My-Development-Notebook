@@ -5,6 +5,7 @@
 * [Resources](resources.md)
 * [Bootstrap](bootstrap.md)
 * [Quick Share Project](quick-share-project.md)
+* [How to Deploy React App to GitHub Pages](how-to-deploy-react-app-to-github-pages.md)
 
 ## 🖐 Handpose Detection
 
