@@ -2,12 +2,15 @@
 
 ## Log
 
-| Day                 | Progress                                                         |
-| ------------------- | ---------------------------------------------------------------- |
-| Day 1, 27 June 2022 | Created GitBook. Add inspiration, motivation, plan, and design.  |
-|                     |                                                                  |
-|                     |                                                                  |
-|                     |                                                                  |
+| Day                 | Progress                                                                                                                                                                                                                                                                                                                                                                                |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Day 1, 27 June 2022 | Created GitBook. Add inspiration, motivation, plan, and design.                                                                                                                                                                                                                                                                                                                         |
+| Day 2, 28 June 2022 | <p>I don't have time to work on this project since I'm preparing my interviews. So I'll work on this whenever I get a break from my current pomodoro. <br><br>This project is too ambitious, and I think I'll benefit more from building something simple and them coming back to this. I'll take a break from this. <br><br>I'm not able to handle events or pass props properly. </p> |
+|                     |                                                                                                                                                                                                                                                                                                                                                                                         |
+|                     |                                                                                                                                                                                                                                                                                                                                                                                         |
+|                     |                                                                                                                                                                                                                                                                                                                                                                                         |
+|                     |                                                                                                                                                                                                                                                                                                                                                                                         |
+|                     |                                                                                                                                                                                                                                                                                                                                                                                         |
 
 ## Inspiration&#x20;
 
@@ -67,6 +70,14 @@ I'll also mark the features as advanced so that I don't get distracted by them. 
 
 <img src="../.gitbook/assets/file.drawing.svg" alt="Component Tree for Main Screen" class="gitbook-drawing">
 
+## States of each task
+
+* Incomplete/Complete
+* Active/Inactive
+* Running/Paused
+
+<img src="../.gitbook/assets/file.drawing (1).svg" alt="" class="gitbook-drawing">
+
 ## Database&#x20;
 
 I'm going to use the local storage as the database and store it as a JSON.
@@ -74,32 +85,45 @@ I'm going to use the local storage as the database and store it as a JSON.
 Here's the structure I'm thinking of:&#x20;
 
 ```json
-phases: [
-    {
-        name: "Read Question",
-        time: 300,
-        elapsed: 300,
-        completed: true
-    }, 
-    {
-        name: "Attempt",
-        time: 600,
-        elapsed: 300,
-        completed: false
-    }, 
-    {
-        name: "Dry Run",
-        time: 600,
-        elapsed: 0,
-        completed: false
-    }, 
-    {
-        name: "See Solution",
-        time: 600,
-        elapsed: 0,
-        completed: false
-    }    
-]
+export const phases = [
+  {
+    _id: 1,
+    name: "Read Question",
+    time: 300,
+    elapsed: 300,
+    completed: true,
+    active: false,
+    current: true,
+  },
+  {
+    _id: 2,
+    name: "Attempt",
+    time: 600,
+    elapsed: 300,
+    completed: false,
+    active: true,
+    current: true,
+  },
+  {
+    _id: 3,
+    name: "Dry Run",
+    time: 600,
+    elapsed: 0,
+    completed: false,
+    active: false,
+    current: true,
+  },
+  {
+    _id: 4,
+    name: "See Solution",
+    time: 600,
+    elapsed: 0,
+    completed: false,
+    active: false,
+    current: true,
+  },
+];
+
 ```
 
 For storing the time, I'll use seconds as the unit. I don't think further precision will be need.&#x20;

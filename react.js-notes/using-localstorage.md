@@ -31,3 +31,44 @@ I'll need to use `useState()` and `useEffect()` hooks along with the hook for th
 | `clear()`      | Delete all instances of localStorage.                                                                    |
 | `key()`        | Not clear, but the page says “When you supply a number, it aids in the retrieval of a localStorage key.” |
 
+According to the freecodecamp article, the most important ones are the first two. So I'll learn only those two first.&#x20;
+
+### Using setItem()
+
+* Anything can be stored in the `localStorage`, text, arrays, objects etc.
+* Before storing anything, I need to stringify it by passing it through `JSON.stringify()`
+
+Syntax for setting items into the `localStorage` as soon as its state changes in the app:
+
+```javascript
+const [items, setItems] = useState([]);
+
+useEffect(() => {
+  localStorage.setItem('items', JSON.stringify(items));
+}, [items]);
+```
+
+### Using getItem()
+
+Syntax for getting items and storing into a state:
+
+```javascript
+const [items, setItems] = useState([]);
+
+useEffect(() => {
+  const items = JSON.parse(localStorage.getItem('items'));
+  if (items) {
+   setItems(items);
+  }
+}, []);
+```
+
+### Using removeItem()
+
+From [an answer from Stack Overflow](https://stackoverflow.com/a/50664919/5864207):
+
+```javascript
+removeItem = () => localStorage.removeItem("name")
+```
+
+\
