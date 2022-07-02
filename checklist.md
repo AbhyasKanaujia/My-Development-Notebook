@@ -10,3 +10,6 @@
   * [ ] Bootstrap
   * [ ] Material UI
   * [ ] Semantic UI
+* [ ] Three.js
+* [ ] Paper.js
+* [ ] Processing.js
