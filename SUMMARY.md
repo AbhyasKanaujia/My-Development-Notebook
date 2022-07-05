@@ -19,3 +19,7 @@
 ## 🌿 My Projects
 
 * [⏲ Phased Timer](my-projects/phased-timer.md)
+
+## 3 Web 3.0
+
+* [Web 3.0](web-3.0/web-3.0.md)
