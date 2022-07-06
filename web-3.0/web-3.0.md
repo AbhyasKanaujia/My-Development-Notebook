@@ -50,3 +50,15 @@ If you change one block and it gets invalid, the whole chain from that block on 
 Besides for data, code can also be stored in a blockchain. These are called **Smart Contracts.**
 
 Smart contracts are simply programs stored on a blockchain that run when predetermined **-conditions** are met. They typically are used to **automate the execution of an agreement** so that all participants can be immediately certain of the outcome, without any intermediary’s involvement or time loss.&#x20;
+
+## DApps
+
+A decentralized application (DApps) is an application built on a decentralized network that combines a smart contract and a frontend user interface.&#x20;
+
+## Pseudonymity
+
+Pseudonymity is **the near-anonymous state in which a user has a consistent identifier that is not their real name: a pseudonym**. Like a discord username.
+
+## Ethemrum
+
+Ethereum is a decentralized, open-source blockchain with smart contract functionality.
