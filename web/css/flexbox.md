@@ -52,11 +52,11 @@ section {
 }
 ```
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 #### Axis
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 * The **main axis** is the axis running in the direction the flex items are laid out in (for example, as rows across the page, or columns down the page.)
 * The start and end of this axis are called the **main start** and **main end**.
@@ -89,7 +89,7 @@ section {
 
 This restores the layout back to how it was without any flex.
 
-![](<../../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (6) (1).png>)
 
 ### Flex Wrap
 
@@ -97,7 +97,7 @@ What if there are too many children inside a flex container?
 
 Duplicating the articles several times in a flex container having main axis as row result in an overflow.
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (2).png>)
 
 Flexbox allows us to wrap overflowing content.
 

@@ -35,7 +35,7 @@ There are many pretrained models on [https://www.tensorflow.org/js/models](https
 
 > This is the first time in my life that I'm getting to work with video. Literally the word "video" written in my source code feels exciting. I'm so happy and overwhelmed
 
-I'm literally squealing right now. This is soooo exciting. <img src="../../.gitbook/assets/image (2).png" alt="" data-size="line">
+I'm literally squealing right now. This is soooo exciting. <img src="../../.gitbook/assets/image (2) (1).png" alt="" data-size="line">
 
 I never knew I keep smiling when I'm doing things that I love.&#x20;
 
