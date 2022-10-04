@@ -15,18 +15,11 @@
   * [React Bootstrap](web/react.js-libraries/react-bootstrap/README.md)
     * [Fundamentals](web/react.js-libraries/react-bootstrap/fundamentals.md)
     * [Forms](web/react.js-libraries/react-bootstrap/forms.md)
+  * [LocalStorage](web/react.js-libraries/localstorage.md)
 * [Express](web/express/README.md)
   * [RestAPI](web/express/restapi.md)
 * [CSS](web/css/README.md)
   * [Flexbox](web/css/flexbox.md)
-
-## ⚛ React.js Notes
-
-* [Using LocalStorage](react.js-notes/using-localstorage.md)
-
-## 3 Web 3.0
-
-* [Web 3.0](web-3.0/web-3.0.md)
 
 ***
 
@@ -35,3 +28,4 @@
   * [Handpose Detection](handpose-detection-projects/handpose-detection/README.md)
     * [Real Time Handpose Detection](handpose-detection-projects/handpose-detection/real-time-handpose-detection.md)
   * [⏲ Phased Timer](my-projects/phased-timer.md)
+  * [Web 3.0](archives/web-3.0.md)
