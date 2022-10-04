@@ -16,7 +16,7 @@ Flexbox is a one-dimensional layout method for arranging items in rows or column
 
 ### Example Scenario
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/image (7).png>)
 
 ```html
 <body>
@@ -52,13 +52,12 @@ section {
 }
 ```
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/image (4).png>)
 
 #### Axis
 
-*
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 * The **main axis** is the axis running in the direction the flex items are laid out in (for example, as rows across the page, or columns down the page.)
 * The start and end of this axis are called the **main start** and **main end**.
 * The **cross axis** is the axis running perpendicular to the direction the flex items are laid out in.
@@ -90,7 +89,7 @@ section {
 
 This restores the layout back to how it was without any flex.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/image (6).png>)
 
 ### Flex Wrap
 
@@ -98,7 +97,7 @@ What if there are too many children inside a flex container?
 
 Duplicating the articles several times in a flex container having main axis as row result in an overflow.
 
-<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/image (3).png>)
 
 Flexbox allows us to wrap overflowing content.
 
