@@ -16,10 +16,12 @@
     * [Fundamentals](web/react.js-libraries/react-bootstrap/fundamentals.md)
     * [Forms](web/react.js-libraries/react-bootstrap/forms.md)
   * [LocalStorage](web/react.js-libraries/localstorage.md)
-* [Express](web/express/README.md)
-  * [RestAPI](web/express/restapi.md)
+* [Express](web/express.md)
 * [CSS](web/css/README.md)
   * [Flexbox](web/css/flexbox.md)
+* [How To](web/how-to/README.md)
+  * [Creating a basic express server](web/how-to/creating-a-basic-express-server.md)
+  * [Create a RestAPI](web/how-to/create-a-restapi.md)
 
 ***
 
