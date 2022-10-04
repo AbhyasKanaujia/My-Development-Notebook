@@ -43,4 +43,4 @@ What's happiness? <img src="../../.gitbook/assets/image (5).png" alt="" data-siz
 
 ## Completed
 
-I've completed this project. It was really fun. Though the results are really simple, but I had a lot of fun building it. I'll deploy it to GitHub Pages now. I'll follow this tutorial. [How to Deploy React App to GitHub Pages](../how-to-deploy-react-app-to-github-pages.md).
+I've completed this project. It was really fun. Though the results are really simple, but I had a lot of fun building it. I'll deploy it to GitHub Pages now. I'll follow this tutorial. [How to Deploy React App to GitHub Pages](../../how-to-deploy-react-app-to-github-pages.md).

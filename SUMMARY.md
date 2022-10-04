@@ -7,6 +7,7 @@
 
 ## Web
 
+* [ES6](web/es6.md)
 * [CSS](web/css/README.md)
   * [Flexbox](web/css/flexbox.md)
 
@@ -21,7 +22,7 @@
 ***
 
 * [Archives](archives/README.md)
-  * [How to Deploy React App to GitHub Pages](archives/how-to-deploy-react-app-to-github-pages.md)
-  * [Handpose Detection](archives/handpose-detection/README.md)
-    * [Real Time Handpose Detection](archives/handpose-detection/real-time-handpose-detection.md)
-  * [⏲ Phased Timer](archives/phased-timer.md)
+  * [How to Deploy React App to GitHub Pages](how-to-deploy-react-app-to-github-pages.md)
+  * [Handpose Detection](handpose-detection-projects/handpose-detection/README.md)
+    * [Real Time Handpose Detection](handpose-detection-projects/handpose-detection/real-time-handpose-detection.md)
+  * [⏲ Phased Timer](my-projects/phased-timer.md)
