@@ -19,9 +19,11 @@
 * [Express](web/express.md)
 * [CSS](web/css/README.md)
   * [Flexbox](web/css/flexbox.md)
+* [JSON Web Tokens](web/json-web-tokens.md)
 * [How To](web/how-to/README.md)
   * [Creating a basic express server](web/how-to/creating-a-basic-express-server.md)
   * [Create a RestAPI](web/how-to/create-a-restapi.md)
+  * [Authentication in MERN Stack](web/how-to/authentication-in-mern-stack.md)
 
 ***
 
